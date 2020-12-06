@@ -1,7 +1,7 @@
-# Day 4
+# Day 4 solutions for Advent Of Code 2020
 def part_one():
     valids = 0
-    for line in open('input.txt').read().split("\n\n"):
+    for line in open('input.txt').read().split('\n\n'):
         if all(item in line for item in ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid']):
             valids += 1
     return valids
@@ -32,7 +32,7 @@ def validator(s):
 
 def part_two():
     valids = 0
-    for line in open('input.txt').read().split("\n\n"):
+    for line in open('input.txt').read().split('\n\n'):
         if not all(item in line for item in ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid']):
             continue
         validity = 0

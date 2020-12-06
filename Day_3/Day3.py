@@ -1,4 +1,4 @@
-# Input for part 1 and 2
+# Day 3 solutions for Advent Of Code 2020
 with open('input.txt', 'r') as puzzle_input:
     input_list = [line.strip() for line in puzzle_input.readlines()]
 

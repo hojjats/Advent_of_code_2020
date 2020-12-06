@@ -1,7 +1,7 @@
-# Day 6
+# Day 6 solutions for Advent Of Code 2020
 def part_one():
     count = 0
-    for line in open('input.txt').read().split("\n\n"):
+    for line in open('input.txt').read().split('\n\n'):
         count += len(set(line.replace('\n', '')))
     return count
 

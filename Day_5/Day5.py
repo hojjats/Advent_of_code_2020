@@ -1,3 +1,4 @@
+# Day 5 solutions for Advent Of Code 2020
 # Golfy solution using str.maketrans() and binary conversion
 with open('input.txt', 'r') as puzzle_input:
     input_list = [int(line.translate(str.maketrans('FBLR', '0101')).strip(), 2)
